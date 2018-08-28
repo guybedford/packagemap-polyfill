@@ -1,0 +1,20 @@
+<!doctype html>
+<script type="module" src="../src/packagemap-polyfill.js"></script>
+<script type="pmp-packagemap">
+{
+  "packages": {
+    "test": "/test/test.js"
+  },
+  "scopes": {
+    "/": {
+      "packages": {
+        "test-dep": "/test/test-dep.js"
+      }
+    }
+  }
+}
+</script>
+<script type="pmp-module">
+  import test from "test";
+  console.log(test);
+</script>

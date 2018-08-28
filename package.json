@@ -1,0 +1,11 @@
+{
+  "name": "packagemap-polyfill",
+  "version": "0.0.1",
+  "description": "Polyfill for package name maps",
+  "main": "packagemap-polyfill.js",
+  "scripts": {
+    "build": "rollup ./src/packagemap-polyfill.js -f es -o packagemap-polyfill.js"
+  },
+  "author": "Guy Bedford",
+  "license": "MIT"
+}
