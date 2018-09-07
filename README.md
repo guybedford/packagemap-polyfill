@@ -1,5 +1,7 @@
 ## Experimental Package Maps Polyfill
 
+**Update: This project ended up becoming [es-module-shims](https://github.com/guybedford/es-module-shims)**
+
 Most modern browsers now support native ES modules.
 
 In order to import bare package specifiers like `import "lodash"` we need [package name maps](https://github.com/domenic/package-name-maps), which are still an experimental specification without
